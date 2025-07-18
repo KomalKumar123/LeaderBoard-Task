@@ -57,7 +57,7 @@ const Leaderboard = ({ users, recentClaimedUserId }) => {
       {/* OTHER USERS */}
       {others.length > 0 && (
         <>
-          <h3 className="text-light mb-3">Leaderboard</h3>
+          <h3 className="text-center mb-4">Leaderboard</h3>
           <div className="overflow-auto" style={{ maxHeight: '250px' }}>
             <table className="table table-dark table-hover text-center">
               <thead>
